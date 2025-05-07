@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .stopwatch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .stopwatch-image, .divider {
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .display {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .buttons button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .sessions-list {
+    list-style: none;
+    padding: 0;
+  }
